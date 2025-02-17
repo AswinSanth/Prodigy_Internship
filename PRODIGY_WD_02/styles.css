@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #ffffff;
+}
+
+.game-container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 3em;
+    color: #00e676;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.timer {
+    font-size: 4em;
+    margin-bottom: 30px;
+    color: #ffeb3b;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.15em;
+}
+
+.buttons {
+    margin-bottom: 25px;
+}
+
+button {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    margin: 12px;
+    border: 2px solid #00e676;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #00e676;
+    color: #000000;
+    transition: all 0.3s;
+    box-shadow: 0px 8px 0px #007d3c;
+}
+
+button:active {
+    box-shadow: 0px 4px 0px #007d3c;
+    transform: translateY(4px);
+}
+
+button:hover {
+    background-color: #66ffa6;
+}
+
+.loops {
+    margin-top: 25px;
+    text-align: left;
+    color: #00e676;
+}
+
+.loops h2 {
+    margin-bottom: 15px;
+}
+
+#loopsList {
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#loopsList li {
+    font-size: 1.4em;
+    padding: 8px 0;
+    border-bottom: 1px dashed #00e676;
+    color: #ffffff;
+}
